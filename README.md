@@ -16,5 +16,7 @@ Open gitbash from Local pc:
 - git push origin master
 
 =============
+
 Master -> basic flow
-phase_1 -> Component&binding
+
+phase_1 -> Component&binding, We are able to add new recipes in shoppinglist
