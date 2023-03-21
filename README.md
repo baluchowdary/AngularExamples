@@ -15,3 +15,6 @@ Open gitbash from Local pc:
 - git remote -v
 - git push origin master
 
+=============
+Master -> basic flow
+phase_1 -> Component&binding
