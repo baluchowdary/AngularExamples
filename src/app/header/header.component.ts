@@ -1,4 +1,7 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component
+  //  EventEmitter, 
+  //  Output 
+  } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,11 +10,11 @@ import { Component, EventEmitter, Output } from '@angular/core';
 }) 
 export class HeaderComponent {
   //We are holding selected value
-  @Output() featureSelected = new EventEmitter<string>();
+  // @Output() featureSelected = new EventEmitter<string>();
 
   //We are calling onSelect function from hearHTML
-  onSelect(feature:string){
-    this.featureSelected.emit(feature);
-  }
+  // onSelect(feature:string){
+  //   this.featureSelected.emit(feature);
+  // }
 
 }
